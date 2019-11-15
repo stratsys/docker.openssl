@@ -21,3 +21,4 @@ echo '##vso[task.setvariable variable=REPOSITORY]'$REPOSITORY
 
 # Custom
 echo '##vso[task.setvariable variable=IMAGE_NAME]'${REGISTRY}/${REPOSITORY}:${TAG_NAME}
+echo '##vso[task.setvariable variable=LATEST_NAME]'${REGISTRY}/${REPOSITORY}:latest
