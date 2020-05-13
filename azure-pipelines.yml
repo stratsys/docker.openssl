@@ -24,7 +24,7 @@ steps:
       command: logout
       containerRegistry: stratsysProductionContainerRegistry
   - script: |
-      . remove_dockerimage.sh
+      . remove.sh
     displayName: 'Remove built image'
 trigger:
   - master
